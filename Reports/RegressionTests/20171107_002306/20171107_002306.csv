@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+RegressionTests,Firefox 47.0,,2017-11-07 00:23:07,2017-11-07 00:23:24,16.872s,FAILED
+,,,,,,
+Test Cases/MakeAppointmentTest,Firefox 47.0,This test case allows a user to book appointment.,2017-11-07 00:23:08,2017-11-07 00:23:24,16.538s,FAILED
+openBrowser,Firefox 47.0,,2017-11-07 00:23:08,2017-11-07 00:23:19,10.834s,PASSED
+waitForPageLoad,Firefox 47.0,,2017-11-07 00:23:19,2017-11-07 00:23:19,0.246s,PASSED
+waitForElementVisible,Firefox 47.0,Wait for a_Make Appointment to be visible in 10s,2017-11-07 00:23:19,2017-11-07 00:23:20,0.166s,PASSED
+click,Firefox 47.0,,2017-11-07 00:23:20,2017-11-07 00:23:20,0.618s,PASSED
+waitForPageLoad,Firefox 47.0,,2017-11-07 00:23:20,2017-11-07 00:23:20,0.034s,PASSED
+waitForElementVisible,Firefox 47.0,Wait for Login username to be visible in 10s,2017-11-07 00:23:20,2017-11-07 00:23:20,0.042s,PASSED
+setText,Firefox 47.0,,2017-11-07 00:23:20,2017-11-07 00:23:20,0.124s,PASSED
+setText,Firefox 47.0,,2017-11-07 00:23:20,2017-11-07 00:23:21,0.251s,PASSED
+waitForElementVisible,Firefox 47.0,Wait for Login password to be visible in 10s,2017-11-07 00:23:21,2017-11-07 00:23:21,0.049s,PASSED
+setText,Firefox 47.0,,2017-11-07 00:23:21,2017-11-07 00:23:21,0.287s,PASSED
+setText,Firefox 47.0,,2017-11-07 00:23:21,2017-11-07 00:23:21,0.134s,PASSED
+waitForElementVisible,Firefox 47.0,Wait for Login button to be visible in 10s,2017-11-07 00:23:21,2017-11-07 00:23:21,0.039s,PASSED
+click,Firefox 47.0,,2017-11-07 00:23:21,2017-11-07 00:23:22,0.950s,PASSED
+waitForPageLoad,Firefox 47.0,,2017-11-07 00:23:22,2017-11-07 00:23:22,0.018s,PASSED
+waitForElementVisible,Firefox 47.0,Wait for Facility option values to be visible in 10s,2017-11-07 00:23:22,2017-11-07 00:23:22,0.054s,PASSED
+selectOptionByValue,Firefox 47.0,,2017-11-07 00:23:22,2017-11-07 00:23:23,0.382s,PASSED
+click,Firefox 47.0,,2017-11-07 00:23:23,2017-11-07 00:23:23,0.118s,PASSED
+click,Firefox 47.0,,2017-11-07 00:23:23,2017-11-07 00:23:23,0.113s,PASSED
+click,Firefox 47.0,,2017-11-07 00:23:23,2017-11-07 00:23:23,0.145s,PASSED
+click,Firefox 47.0,,2017-11-07 00:23:23,2017-11-07 00:23:23,0.149s,PASSED
+setText,Firefox 47.0,,2017-11-07 00:23:23,2017-11-07 00:23:23,0.238s,PASSED
+click,Firefox 47.0,,2017-11-07 00:23:23,2017-11-07 00:23:24,0.539s,PASSED
+verifyEqual,Firefox 47.0,,2017-11-07 00:23:24,2017-11-07 00:23:24,0.022s,FAILED
+closeBrowser,Firefox 47.0,,2017-11-07 00:23:24,2017-11-07 00:23:24,0.368s,PASSED

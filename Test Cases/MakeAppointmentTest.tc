@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case allows a user to book appointment.</description>
+   <name>MakeAppointmentTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d480d9d1-68c5-4957-8dd2-5ce1bc40a6b0</testCaseGuid>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>d3f403da-b2f9-4086-aeaf-eb1a12d0e91b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
+      <description></description>
+      <id>bcd64733-989b-4057-80a8-bed08d61ce3b</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

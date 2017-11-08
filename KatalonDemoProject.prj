@@ -4,5 +4,5 @@
    <name>KatalonDemoProject</name>
    <tag></tag>
    <UUID>935d4ecb-c283-4d74-99ad-f41e5936faec</UUID>
-   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeout>0</pageLoadTimeout>
 </Project>

@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+RegressionTests,Chrome 62.0.3202.75,,2017-11-08 05:39:20,2017-11-08 05:39:34,13.741s,PASSED
+,,,,,,
+Test Cases/MakeAppointmentTest,Chrome 62.0.3202.75,This test case allows a user to book appointment.,2017-11-08 05:39:20,2017-11-08 05:39:34,13.365s,PASSED
+openBrowser,Chrome 62.0.3202.75,,2017-11-08 05:39:21,2017-11-08 05:39:28,7.830s,PASSED
+waitForPageLoad,Chrome 62.0.3202.75,,2017-11-08 05:39:28,2017-11-08 05:39:29,0.070s,PASSED
+com.demo.utilities.CommonUtilities.clickOnElement,Chrome 62.0.3202.75,Click on a_Make Appointment button,2017-11-08 05:39:29,2017-11-08 05:39:29,0.633s,PASSED
+waitForPageLoad,Chrome 62.0.3202.75,,2017-11-08 05:39:29,2017-11-08 05:39:29,0.014s,PASSED
+com.demo.utilities.CommonUtilities.setTextOnElement,Chrome 62.0.3202.75,Fill username,2017-11-08 05:39:29,2017-11-08 05:39:30,0.337s,PASSED
+com.demo.utilities.CommonUtilities.setTextOnElement,Chrome 62.0.3202.75,Fill password,2017-11-08 05:39:30,2017-11-08 05:39:30,0.278s,PASSED
+com.demo.utilities.CommonUtilities.clickOnElement,Chrome 62.0.3202.75,Click on Login button,2017-11-08 05:39:30,2017-11-08 05:39:31,0.846s,PASSED
+waitForPageLoad,Chrome 62.0.3202.75,,2017-11-08 05:39:31,2017-11-08 05:39:31,0.016s,PASSED
+waitForElementVisible,Chrome 62.0.3202.75,Wait for Facility select values to be visible in 10s,2017-11-08 05:39:31,2017-11-08 05:39:31,0.062s,PASSED
+"Statement - flag = CustomKeywords.com.demo.utilities.CommonUtilities.checkDropDownListElementExist(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_CURA Healthcare Service (1)/select_facility), ""Hongkong CURA Healthcare Center"")",Chrome 62.0.3202.75,,2017-11-08 05:39:31,2017-11-08 05:39:31,0.134s,PASSED
+Statement - If (flag),Chrome 62.0.3202.75,,2017-11-08 05:39:31,2017-11-08 05:39:31,0.155s,PASSED
+com.demo.utilities.CommonUtilities.clickOnElement,Chrome 62.0.3202.75,Click on hospital readmission checkbox,2017-11-08 05:39:31,2017-11-08 05:39:31,0.169s,PASSED
+com.demo.utilities.CommonUtilities.clickOnElement,Chrome 62.0.3202.75,Click on hospital readmission checkbox,2017-11-08 05:39:31,2017-11-08 05:39:31,0.115s,PASSED
+com.demo.utilities.CommonUtilities.clickOnElement,Chrome 62.0.3202.75,Click on VisitDate field,2017-11-08 05:39:31,2017-11-08 05:39:31,0.136s,PASSED
+com.demo.utilities.CommonUtilities.clickOnElement,Chrome 62.0.3202.75,Select 25th Nov,2017-11-08 05:39:31,2017-11-08 05:39:32,0.162s,PASSED
+com.demo.utilities.CommonUtilities.setTextOnElement,Chrome 62.0.3202.75,,2017-11-08 05:39:32,2017-11-08 05:39:32,0.322s,PASSED
+com.demo.utilities.CommonUtilities.clickOnElement,Chrome 62.0.3202.75,,2017-11-08 05:39:32,2017-11-08 05:39:32,0.529s,PASSED
+verifyTextPresent,Chrome 62.0.3202.75,,2017-11-08 05:39:32,2017-11-08 05:39:33,0.111s,PASSED
+closeBrowser,Chrome 62.0.3202.75,,2017-11-08 05:39:33,2017-11-08 05:39:34,0.964s,PASSED

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RegressionTests" time="16" tests="0" failures="1" errors="0">
+   <testsuite name="RegressionTests" tests="0" failures="1" errors="0" time="16" timestamp="2017-11-07 00:23:07" hostname="Kunal - Kunal-Shokeen" id="Test Suites/RegressionTests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Kunal\\Katalon Studio\\KatalonDemoProject\\Reports\\RegressionTests\\20171107_002306"/>
+         <property name="logFiles" value="C:\\Users\\Kunal\\Katalon Studio\\KatalonDemoProject\\Reports\\RegressionTests\\20171107_002306\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kunal - Kunal-Shokeen"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Firefox 47.0"/>
+         <property name="hostAddress" value="10.1.13.52"/>
+         <property name="sessionId" value="7f101768-76af-4be1-a482-0bdcd09db0cf"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/MakeAppointmentTest" classname="Test Cases/MakeAppointmentTest" status="FAILED">
+         <failure type="FAILED" message="Unable to verify equal between actual object 'TestObject - 'Object Repository/Page_CURA Healthcare Service (1)/p_Please be informed that your'' and expected object 'Please be informed that your appointment has been booked as following:' (Root cause: Actual object 'TestObject - 'Object Repository/Page_CURA Healthcare Service (1)/p_Please be informed that your'' and expected object 'Please be informed that your appointment has been booked as following:' are not equal)"/>
+         <system-out><![CDATA[2017-11-07 00:23:08 - [TEST_CASE][FAILED] - Test Cases/MakeAppointmentTest: Test Cases/MakeAppointmentTest FAILED because (of) Unable to verify equal between actual object 'TestObject - 'Object Repository/Page_CURA Healthcare Service (1)/p_Please be informed that your'' and expected object 'Please be informed that your appointment has been booked as following:' (Root cause: Actual object 'TestObject - 'Object Repository/Page_CURA Healthcare Service (1)/p_Please be informed that your'' and expected object 'Please be informed that your appointment has been booked as following:' are not equal)
+
+2017-11-07 00:23:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2017-11-07 00:23:19 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2017-11-07 00:23:19 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-07 00:23:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-07 00:23:19 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CURA Healthcare Service (1)/a_Make Appointment' is visible
+
+2017-11-07 00:23:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/a_Make Appointment' is visible
+
+2017-11-07 00:23:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (1)/a_Make Appointment' is clicked on
+
+2017-11-07 00:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/a_Make Appointment' is clicked on
+
+2017-11-07 00:23:20 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-07 00:23:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-07 00:23:20 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CURA Healthcare Service (1)/input_username' is visible
+
+2017-11-07 00:23:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/input_username' is visible
+
+2017-11-07 00:23:20 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_username'
+
+2017-11-07 00:23:20 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_username'
+
+2017-11-07 00:23:20 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_username'
+
+2017-11-07 00:23:21 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_username'
+
+2017-11-07 00:23:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CURA Healthcare Service (1)/input_password' is visible
+
+2017-11-07 00:23:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/input_password' is visible
+
+2017-11-07 00:23:21 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_password'
+
+2017-11-07 00:23:21 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_password'
+
+2017-11-07 00:23:21 - [TEST_STEP][PASSED] - setText: Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_password'
+
+2017-11-07 00:23:21 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_password'
+
+2017-11-07 00:23:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is visible
+
+2017-11-07 00:23:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is visible
+
+2017-11-07 00:23:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is clicked on
+
+2017-11-07 00:23:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is clicked on
+
+2017-11-07 00:23:22 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-07 00:23:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-07 00:23:22 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' is visible
+
+2017-11-07 00:23:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' is visible
+
+2017-11-07 00:23:22 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service (1)/select_facility'  using regular expression
+
+2017-11-07 00:23:23 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service (1)/select_facility'  using regular expression
+
+2017-11-07 00:23:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (1)/input_hospital_readmission' is clicked on
+
+2017-11-07 00:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/input_hospital_readmission' is clicked on
+
+2017-11-07 00:23:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (1)/input_programs' is clicked on
+
+2017-11-07 00:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/input_programs' is clicked on
+
+2017-11-07 00:23:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (1)/VisitDate' is clicked on
+
+2017-11-07 00:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/VisitDate' is clicked on
+
+2017-11-07 00:23:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (1)/td_25' is clicked on
+
+2017-11-07 00:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/td_25' is clicked on
+
+2017-11-07 00:23:23 - [TEST_STEP][PASSED] - setText: Text 'Appointment' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/textarea_comment'
+
+2017-11-07 00:23:23 - [MESSAGE][PASSED] - Text 'Appointment' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/textarea_comment'
+
+2017-11-07 00:23:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Book Appointment' is clicked on
+
+2017-11-07 00:23:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Book Appointment' is clicked on
+
+2017-11-07 00:23:24 - [TEST_STEP][FAILED] - verifyEqual: Unable to verify equal between actual object 'TestObject - 'Object Repository/Page_CURA Healthcare Service (1)/p_Please be informed that your'' and expected object 'Please be informed that your appointment has been booked as following:' (Root cause: Actual object 'TestObject - 'Object Repository/Page_CURA Healthcare Service (1)/p_Please be informed that your'' and expected object 'Please be informed that your appointment has been booked as following:' are not equal)
+
+2017-11-07 00:23:24 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'TestObject - 'Object Repository/Page_CURA Healthcare Service (1)/p_Please be informed that your'' and expected object 'Please be informed that your appointment has been booked as following:' (Root cause: Actual object 'TestObject - 'Object Repository/Page_CURA Healthcare Service (1)/p_Please be informed that your'' and expected object 'Please be informed that your appointment has been booked as following:' are not equal)
+
+2017-11-07 00:23:24 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-07 00:23:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2017-11-07 00:23:08 - [TEST_CASE][FAILED] - Test Cases/MakeAppointmentTest: Test Cases/MakeAppointmentTest FAILED because (of) Unable to verify equal between actual object 'TestObject - 'Object Repository/Page_CURA Healthcare Service (1)/p_Please be informed that your'' and expected object 'Please be informed that your appointment has been booked as following:' (Root cause: Actual object 'TestObject - 'Object Repository/Page_CURA Healthcare Service (1)/p_Please be informed that your'' and expected object 'Please be informed that your appointment has been booked as following:' are not equal)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-07 00:23:07 - [TEST_SUITE][FAILED] - RegressionTests: Test Cases/MakeAppointmentTest FAILED because (of) Unable to verify equal between actual object 'TestObject - 'Object Repository/Page_CURA Healthcare Service (1)/p_Please be informed that your'' and expected object 'Please be informed that your appointment has been booked as following:' (Root cause: Actual object 'TestObject - 'Object Repository/Page_CURA Healthcare Service (1)/p_Please be informed that your'' and expected object 'Please be informed that your appointment has been booked as following:' are not equal)]]></system-out>
+      <system-err><![CDATA[2017-11-07 00:23:07 - [TEST_SUITE][FAILED] - RegressionTests: Test Cases/MakeAppointmentTest FAILED because (of) Unable to verify equal between actual object 'TestObject - 'Object Repository/Page_CURA Healthcare Service (1)/p_Please be informed that your'' and expected object 'Please be informed that your appointment has been booked as following:' (Root cause: Actual object 'TestObject - 'Object Repository/Page_CURA Healthcare Service (1)/p_Please be informed that your'' and expected object 'Please be informed that your appointment has been booked as following:' are not equal)]]></system-err>
+   </testsuite>
+</testsuites>

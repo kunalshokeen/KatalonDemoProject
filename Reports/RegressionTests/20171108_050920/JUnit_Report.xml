@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RegressionTests" time="135" tests="0" failures="0" errors="3">
+   <testsuite name="RegressionTests" tests="0" failures="0" errors="3" time="135" timestamp="2017-11-08 05:09:22" hostname="Kunal - Kunal-Shokeen" id="Test Suites/RegressionTests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Kunal\\Katalon Studio\\KatalonDemoProject\\Reports\\RegressionTests\\20171108_050920"/>
+         <property name="logFiles" value="C:\\Users\\Kunal\\Katalon Studio\\KatalonDemoProject\\Reports\\RegressionTests\\20171108_050920\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kunal - Kunal-Shokeen"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Firefox 47.0"/>
+         <property name="hostAddress" value="10.1.13.72"/>
+         <property name="sessionId" value="cfdbc652-e736-4ade-8344-551fbcfcd75e"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/MakeAppointmentTest - Iteration 1" classname="Test Cases/MakeAppointmentTest" status="ERROR">
+         <error type="ERROR" message="Test Cases/MakeAppointmentTest FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found"/>
+         <system-out><![CDATA[2017-11-08 05:09:22 - [TEST_CASE][ERROR] - Test Cases/MakeAppointmentTest - Iteration 1: Test Cases/MakeAppointmentTest FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found
+
+2017-11-08 05:09:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2017-11-08 05:09:35 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2017-11-08 05:09:35 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-08 05:09:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-08 05:09:35 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement: com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 05:09:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/a_Make Appointment' is visible
+
+2017-11-08 05:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/a_Make Appointment' is clicked on
+
+2017-11-08 05:09:36 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 05:09:36 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-08 05:09:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-08 05:09:36 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.setTextOnElement: com.demo.utilities.CommonUtilities.setTextOnElement is PASSED
+
+2017-11-08 05:09:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/input_username' is visible
+
+2017-11-08 05:09:36 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_username'
+
+2017-11-08 05:09:36 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_username'
+
+2017-11-08 05:09:36 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.setTextOnElement is PASSED
+
+2017-11-08 05:09:36 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.setTextOnElement: com.demo.utilities.CommonUtilities.setTextOnElement is PASSED
+
+2017-11-08 05:09:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/input_password' is visible
+
+2017-11-08 05:09:36 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_password'
+
+2017-11-08 05:09:37 - [MESSAGE][PASSED] - Text 'abc123' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_password'
+
+2017-11-08 05:09:37 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.setTextOnElement is PASSED
+
+2017-11-08 05:09:37 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement: com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 05:09:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is visible
+
+2017-11-08 05:09:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is clicked on
+
+2017-11-08 05:09:37 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 05:09:37 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-08 05:09:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-08 05:09:38 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found
+
+2017-11-08 05:09:48 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found
+
+2017-11-08 05:09:48 - [TEST_STEP][ERROR] - Statement - flag = CustomKeywords.com.demo.utilities.CommonUtilities.checkDropDownListElementExist(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_CURA Healthcare Service (1)/select_facility), "Hongkong CURA Healthcare Center"): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found
+
+2017-11-08 05:10:09 - [MESSAGE][ERROR] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found]]></system-out>
+         <system-err><![CDATA[2017-11-08 05:09:22 - [TEST_CASE][ERROR] - Test Cases/MakeAppointmentTest - Iteration 1: Test Cases/MakeAppointmentTest FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MakeAppointmentTest - Iteration 2" classname="Test Cases/MakeAppointmentTest" status="ERROR">
+         <error type="ERROR" message="Test Cases/MakeAppointmentTest FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found"/>
+         <system-out><![CDATA[2017-11-08 05:10:09 - [TEST_CASE][ERROR] - Test Cases/MakeAppointmentTest - Iteration 2: Test Cases/MakeAppointmentTest FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found
+
+2017-11-08 05:10:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2017-11-08 05:10:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-08 05:10:19 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2017-11-08 05:10:19 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-08 05:10:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-08 05:10:19 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement: com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 05:10:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/a_Make Appointment' is visible
+
+2017-11-08 05:10:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/a_Make Appointment' is clicked on
+
+2017-11-08 05:10:20 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 05:10:20 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-08 05:10:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-08 05:10:20 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.setTextOnElement: com.demo.utilities.CommonUtilities.setTextOnElement is PASSED
+
+2017-11-08 05:10:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/input_username' is visible
+
+2017-11-08 05:10:21 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_username'
+
+2017-11-08 05:10:21 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_username'
+
+2017-11-08 05:10:21 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.setTextOnElement is PASSED
+
+2017-11-08 05:10:21 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.setTextOnElement: com.demo.utilities.CommonUtilities.setTextOnElement is PASSED
+
+2017-11-08 05:10:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/input_password' is visible
+
+2017-11-08 05:10:21 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_password'
+
+2017-11-08 05:10:21 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_password'
+
+2017-11-08 05:10:21 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.setTextOnElement is PASSED
+
+2017-11-08 05:10:21 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement: com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 05:10:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is visible
+
+2017-11-08 05:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is clicked on
+
+2017-11-08 05:10:22 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 05:10:22 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-08 05:10:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-08 05:10:22 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found
+
+2017-11-08 05:10:32 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found
+
+2017-11-08 05:10:32 - [TEST_STEP][ERROR] - Statement - flag = CustomKeywords.com.demo.utilities.CommonUtilities.checkDropDownListElementExist(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_CURA Healthcare Service (1)/select_facility), "Hongkong CURA Healthcare Center"): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found
+
+2017-11-08 05:10:53 - [MESSAGE][ERROR] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found]]></system-out>
+         <system-err><![CDATA[2017-11-08 05:10:09 - [TEST_CASE][ERROR] - Test Cases/MakeAppointmentTest - Iteration 2: Test Cases/MakeAppointmentTest FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MakeAppointmentTest - Iteration 3" classname="Test Cases/MakeAppointmentTest" status="ERROR">
+         <error type="ERROR" message="Test Cases/MakeAppointmentTest FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found"/>
+         <system-out><![CDATA[2017-11-08 05:10:53 - [TEST_CASE][ERROR] - Test Cases/MakeAppointmentTest - Iteration 3: Test Cases/MakeAppointmentTest FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found
+
+2017-11-08 05:10:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2017-11-08 05:10:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-08 05:11:03 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2017-11-08 05:11:03 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-08 05:11:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-08 05:11:03 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement: com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 05:11:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/a_Make Appointment' is visible
+
+2017-11-08 05:11:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/a_Make Appointment' is clicked on
+
+2017-11-08 05:11:04 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 05:11:04 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-08 05:11:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-08 05:11:04 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.setTextOnElement: com.demo.utilities.CommonUtilities.setTextOnElement is PASSED
+
+2017-11-08 05:11:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/input_username' is visible
+
+2017-11-08 05:11:04 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_username'
+
+2017-11-08 05:11:05 - [MESSAGE][PASSED] - Text 'John Deo' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_username'
+
+2017-11-08 05:11:05 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.setTextOnElement is PASSED
+
+2017-11-08 05:11:05 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.setTextOnElement: com.demo.utilities.CommonUtilities.setTextOnElement is PASSED
+
+2017-11-08 05:11:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/input_password' is visible
+
+2017-11-08 05:11:05 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_password'
+
+2017-11-08 05:11:05 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_password'
+
+2017-11-08 05:11:05 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.setTextOnElement is PASSED
+
+2017-11-08 05:11:05 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement: com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 05:11:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is visible
+
+2017-11-08 05:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is clicked on
+
+2017-11-08 05:11:06 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 05:11:06 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-08 05:11:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-08 05:11:06 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found
+
+2017-11-08 05:11:16 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found
+
+2017-11-08 05:11:16 - [TEST_STEP][ERROR] - Statement - flag = CustomKeywords.com.demo.utilities.CommonUtilities.checkDropDownListElementExist(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_CURA Healthcare Service (1)/select_facility), "Hongkong CURA Healthcare Center"): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found
+
+2017-11-08 05:11:37 - [MESSAGE][ERROR] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found]]></system-out>
+         <system-err><![CDATA[2017-11-08 05:10:53 - [TEST_CASE][ERROR] - Test Cases/MakeAppointmentTest - Iteration 3: Test Cases/MakeAppointmentTest FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-08 05:09:22 - [TEST_SUITE][ERROR] - RegressionTests: Test Cases/MakeAppointmentTest FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found]]></system-out>
+      <system-err><![CDATA[2017-11-08 05:09:22 - [TEST_SUITE][ERROR] - RegressionTests: Test Cases/MakeAppointmentTest FAILED because (of) org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' located by 'By.xpath: //select[count(. | //*[@id = 'combo_facility']) = count(//*[@id = 'combo_facility'])]' not found]]></system-err>
+   </testsuite>
+</testsuites>

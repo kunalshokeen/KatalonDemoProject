@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>RegressionTests</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2017-11-08T05:39:46</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>51f8ea7e-476d-4b54-be94-18edb0647133</testSuiteGuid>
+   <testCaseLink>
+      <guid>e624c413-cde8-41b4-8d56-d319e27e6c49</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MakeAppointmentTest</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>10ac3627-f6ff-4ab4-b805-ace64bdb5004</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DataDrivenEntry</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>10ac3627-f6ff-4ab4-b805-ace64bdb5004</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>d3f403da-b2f9-4086-aeaf-eb1a12d0e91b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>10ac3627-f6ff-4ab4-b805-ace64bdb5004</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>bcd64733-989b-4057-80a8-bed08d61ce3b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
