@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RegressionTests" time="26" tests="2" failures="0" errors="0">
+   <testsuite name="RegressionTests" tests="2" failures="0" errors="0" time="26" timestamp="2017-11-08 10:50:40" hostname="Kunal - Kunal-Shokeen" id="Test Suites/RegressionTests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Kunal\\Katalon Studio\\KatalonDemoProject\\Reports\\RegressionTests\\20171108_105038"/>
+         <property name="logFiles" value="C:\\Users\\Kunal\\Katalon Studio\\KatalonDemoProject\\Reports\\RegressionTests\\20171108_105038\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kunal - Kunal-Shokeen"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Chrome 62.0.3202.75"/>
+         <property name="hostAddress" value="192.168.169.103"/>
+         <property name="sessionId" value="ac46657b5f2d43df41b20b9e8ea5b2b8"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/TC1_Verify Successful Login" classname="Test Cases/Main Test Cases/TC1_Verify Successful Login" status="PASSED">
+         <system-out><![CDATA[2017-11-08 10:50:40 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC1_Verify Successful Login: Test Cases/Main Test Cases/TC1_Verify Successful Login
+
+2017-11-08 10:50:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2017-11-08 10:50:46 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2017-11-08 10:50:46 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2017-11-08 10:50:46 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login: Test Cases/Common Test Cases/Login
+
+2017-11-08 10:50:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (1)/a_Make Appointment' is clicked on
+
+2017-11-08 10:50:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/a_Make Appointment' is clicked on
+
+2017-11-08 10:50:47 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_username'
+
+2017-11-08 10:50:48 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_username'
+
+2017-11-08 10:50:48 - [TEST_STEP][PASSED] - setText: Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_password'
+
+2017-11-08 10:50:48 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_password'
+
+2017-11-08 10:50:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is clicked on
+
+2017-11-08 10:50:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is clicked on
+
+2017-11-08 10:50:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2017-11-08 10:50:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_CURA Healthcare Service (1)/div_Appointment' is present
+
+2017-11-08 10:50:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/div_Appointment' is present
+
+2017-11-08 10:50:51 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-08 10:50:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/TC2_Verify Successful Appointment" classname="Test Cases/Main Test Cases/TC2_Verify Successful Appointment" status="PASSED">
+         <system-out><![CDATA[2017-11-08 10:50:52 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC2_Verify Successful Appointment: Test Cases/Main Test Cases/TC2_Verify Successful Appointment
+
+2017-11-08 10:50:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2017-11-08 10:50:58 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2017-11-08 10:50:58 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.waitForPageLoad: com.demo.utilities.CommonUtilities.waitForPageLoad is PASSED
+
+2017-11-08 10:50:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-08 10:50:59 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.waitForPageLoad is PASSED
+
+2017-11-08 10:50:59 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement: com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 10:50:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/a_Make Appointment' is visible
+
+2017-11-08 10:51:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/a_Make Appointment' is clicked on
+
+2017-11-08 10:51:00 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 10:51:00 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.waitForPageLoad: com.demo.utilities.CommonUtilities.waitForPageLoad is PASSED
+
+2017-11-08 10:51:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-08 10:51:00 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.waitForPageLoad is PASSED
+
+2017-11-08 10:51:00 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.setTextOnElement: com.demo.utilities.CommonUtilities.setTextOnElement is PASSED
+
+2017-11-08 10:51:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/input_username' is visible
+
+2017-11-08 10:51:00 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_username'
+
+2017-11-08 10:51:00 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_username'
+
+2017-11-08 10:51:00 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.setTextOnElement is PASSED
+
+2017-11-08 10:51:00 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.setTextOnElement: com.demo.utilities.CommonUtilities.setTextOnElement is PASSED
+
+2017-11-08 10:51:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/input_password' is visible
+
+2017-11-08 10:51:00 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_password'
+
+2017-11-08 10:51:00 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_password'
+
+2017-11-08 10:51:00 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.setTextOnElement is PASSED
+
+2017-11-08 10:51:00 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement: com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 10:51:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is visible
+
+2017-11-08 10:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is clicked on
+
+2017-11-08 10:51:03 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 10:51:03 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.waitForPageLoad: com.demo.utilities.CommonUtilities.waitForPageLoad is PASSED
+
+2017-11-08 10:51:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-08 10:51:03 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.waitForPageLoad is PASSED
+
+2017-11-08 10:51:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' is visible
+
+2017-11-08 10:51:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/select_facility' is visible
+
+2017-11-08 10:51:03 - [TEST_STEP][PASSED] - Statement - flag = CustomKeywords.com.demo.utilities.CommonUtilities.checkDropDownListElementExist(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_CURA Healthcare Service (1)/select_facility), "Hongkong CURA Healthcare Center"): com.demo.utilities.CommonUtilities.checkDropDownListElementExist is PASSED
+
+2017-11-08 10:51:03 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.checkDropDownListElementExist is PASSED
+
+2017-11-08 10:51:03 - [TEST_STEP][PASSED] - Statement - If (flag): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service (1)/select_facility'  using regular expression
+
+2017-11-08 10:51:03 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service (1)/select_facility'  using regular expression
+
+2017-11-08 10:51:03 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service (1)/select_facility'  using regular expression
+
+2017-11-08 10:51:03 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement: com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 10:51:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/input_hospital_readmission' is visible
+
+2017-11-08 10:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/input_hospital_readmission' is clicked on
+
+2017-11-08 10:51:03 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 10:51:03 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement: com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 10:51:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/input_programs' is visible
+
+2017-11-08 10:51:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/input_programs' is clicked on
+
+2017-11-08 10:51:04 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 10:51:04 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement: com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 10:51:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/VisitDate' is visible
+
+2017-11-08 10:51:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/VisitDate' is clicked on
+
+2017-11-08 10:51:04 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 10:51:04 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement: com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 10:51:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/td_25' is visible
+
+2017-11-08 10:51:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/td_25' is clicked on
+
+2017-11-08 10:51:04 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 10:51:04 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.setTextOnElement: com.demo.utilities.CommonUtilities.setTextOnElement is PASSED
+
+2017-11-08 10:51:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/textarea_comment' is visible
+
+2017-11-08 10:51:04 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/textarea_comment'
+
+2017-11-08 10:51:04 - [MESSAGE][PASSED] - Text 'Booking appointment' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/textarea_comment'
+
+2017-11-08 10:51:04 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.setTextOnElement is PASSED
+
+2017-11-08 10:51:04 - [TEST_STEP][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement: com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 10:51:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/button_Book Appointment' is visible
+
+2017-11-08 10:51:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Book Appointment' is clicked on
+
+2017-11-08 10:51:05 - [MESSAGE][PASSED] - com.demo.utilities.CommonUtilities.clickOnElement is PASSED
+
+2017-11-08 10:51:05 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Appointment Confirmation' is present on page  using regular expression
+
+2017-11-08 10:51:05 - [MESSAGE][PASSED] - Text 'Appointment Confirmation' is present on page  using regular expression
+
+2017-11-08 10:51:05 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-08 10:51:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-08 10:50:40 - [TEST_SUITE][PASSED] - RegressionTests: Test Cases/Main Test Cases/TC2_Verify Successful Appointment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

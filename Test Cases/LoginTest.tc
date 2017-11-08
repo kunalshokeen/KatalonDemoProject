@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test to verify user is able to login successfully.</description>
-   <name>LoginTest</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>47473099-6e1a-4104-854a-a7791a57da2a</testCaseGuid>
-</TestCaseEntity>

@@ -35,7 +35,7 @@ public class CommonUtilities {
 	@Keyword
 	boolean checkDropDownListElementExist(TestObject testObj,String option) {
 		boolean flag = false;
-		WebElement element = WebUiCommonHelper.findWebElement(testObj,20);
+		WebElement element = WebUiCommonHelper.findWebElement(testObj,GlobalVariable.G_ShortTimeOut);
 		Select ddl = new Select(element);
 		List<WebElement> options = ddl.getOptions();
 		for(WebElement ele :options) {
@@ -53,16 +53,21 @@ public class CommonUtilities {
 	@Keyword
 	void clickOnElement(TestObject testObj) {
 		'Wait for Element to be visible in 10s'
-		WebUI.waitForElementVisible(testObj,10)
+		WebUI.waitForElementVisible(testObj,GlobalVariable.G_ShortTimeOut)
 		WebUI.click(testObj)
 	}
 
 	@Keyword
 	void setTextOnElement(TestObject testObj,String text) {
 		'Wait for Element to be visible in 10s'
-		WebUI.waitForElementVisible(testObj, 10)
+		WebUI.waitForElementVisible(testObj,GlobalVariable.G_ShortTimeOut)
 		'Clear element text no cleartext method in WebUI'
 		WebUI.setText(testObj,'')
 		WebUI.setText(testObj,text)
+	}
+	
+	@Keyword
+	void waitForPageLoad() {
+		WebUI.waitForPageLoad(GlobalVariable.G_Timeout)
 	}
 }

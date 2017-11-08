@@ -6,11 +6,11 @@
    <elementGuidId>b9abe875-041f-4199-bfec-85d6b6bd7eb0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
          <value>html/body/div/div[1]/table/tbody/tr[4]/td[text()='25']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
          <value>html/body/div/div[1]/table/tbody/tr[4]/td[text()='25']</value>
       </entry>
    </selectorCollection>

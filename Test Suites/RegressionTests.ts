@@ -4,7 +4,7 @@
    <name>RegressionTests</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-11-08T05:39:46</lastRun>
+   <lastRun>2017-11-08T11:14:31</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -12,10 +12,37 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>51f8ea7e-476d-4b54-be94-18edb0647133</testSuiteGuid>
    <testCaseLink>
+      <guid>638ecb10-aacd-4234-b7a3-0d5bcced6733</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Test Cases/TC1_Verify Successful Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>83ead83e-b5a6-4f92-a4e7-3ca9ff15ca59</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DataDrivenEntry</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>83ead83e-b5a6-4f92-a4e7-3ca9ff15ca59</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>c0641631-2ba1-4cb8-be8b-6e07063d7494</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>83ead83e-b5a6-4f92-a4e7-3ca9ff15ca59</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>8ce3a926-e040-4ab4-b9b5-291028e18a81</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>e624c413-cde8-41b4-8d56-d319e27e6c49</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MakeAppointmentTest</testCaseId>
+      <testCaseId>Test Cases/Main Test Cases/TC2_Verify Successful Appointment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>10ac3627-f6ff-4ab4-b805-ace64bdb5004</id>
@@ -36,6 +63,12 @@
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>bcd64733-989b-4057-80a8-bed08d61ce3b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ce199d69-245f-46cb-abb4-0d3014f1e767</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -6,12 +6,11 @@
    <elementGuidId>860e1926-2de8-4919-9d68-1d358a3a86f6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//a[count(. | //*[@id = 'btn-make-appointment']) = count(//*[@id = 'btn-make-appointment'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

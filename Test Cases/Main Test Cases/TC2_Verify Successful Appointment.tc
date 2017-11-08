@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>This test case allows a user to book appointment.</description>
-   <name>MakeAppointmentTest</name>
+   <name>TC2_Verify Successful Appointment</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d480d9d1-68c5-4957-8dd2-5ce1bc40a6b0</testCaseGuid>
@@ -18,5 +18,12 @@
       <id>bcd64733-989b-4057-80a8-bed08d61ce3b</id>
       <masked>false</masked>
       <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Appointment Confirmation'</defaultValue>
+      <description></description>
+      <id>ce199d69-245f-46cb-abb4-0d3014f1e767</id>
+      <masked>false</masked>
+      <name>appointmentConfirmationText</name>
    </variable>
 </TestCaseEntity>

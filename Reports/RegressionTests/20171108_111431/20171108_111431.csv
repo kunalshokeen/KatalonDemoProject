@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+RegressionTests,Chrome 62.0.3202.75,,2017-11-08 11:14:32,2017-11-08 11:14:53,20.551s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login,Chrome 62.0.3202.75,Test to verify user is able to login successfully.,2017-11-08 11:14:33,2017-11-08 11:14:43,9.908s,PASSED
+openBrowser,Chrome 62.0.3202.75,,2017-11-08 11:14:33,2017-11-08 11:14:39,5.853s,PASSED
+callTestCase,Chrome 62.0.3202.75,,2017-11-08 11:14:39,2017-11-08 11:14:42,2.372s,PASSED
+verifyElementPresent,Chrome 62.0.3202.75,,2017-11-08 11:14:42,2017-11-08 11:14:42,0.065s,PASSED
+closeBrowser,Chrome 62.0.3202.75,,2017-11-08 11:14:42,2017-11-08 11:14:43,0.906s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment,Chrome 62.0.3202.75,This test case allows a user to book appointment.,2017-11-08 11:14:43,2017-11-08 11:14:53,10.277s,PASSED
+openBrowser,Chrome 62.0.3202.75,,2017-11-08 11:14:43,2017-11-08 11:14:47,4.389s,PASSED
+com.demo.utilities.CommonUtilities.waitForPageLoad,Chrome 62.0.3202.75,,2017-11-08 11:14:47,2017-11-08 11:14:47,0.071s,PASSED
+com.demo.utilities.CommonUtilities.clickOnElement,Chrome 62.0.3202.75,Click on a_Make Appointment button,2017-11-08 11:14:47,2017-11-08 11:14:48,1.014s,PASSED
+com.demo.utilities.CommonUtilities.waitForPageLoad,Chrome 62.0.3202.75,,2017-11-08 11:14:48,2017-11-08 11:14:48,0.027s,PASSED
+com.demo.utilities.CommonUtilities.setTextOnElement,Chrome 62.0.3202.75,Fill username,2017-11-08 11:14:48,2017-11-08 11:14:49,0.303s,PASSED
+com.demo.utilities.CommonUtilities.setTextOnElement,Chrome 62.0.3202.75,Fill password,2017-11-08 11:14:49,2017-11-08 11:14:49,0.411s,PASSED
+com.demo.utilities.CommonUtilities.clickOnElement,Chrome 62.0.3202.75,Click on Login button,2017-11-08 11:14:49,2017-11-08 11:14:50,0.926s,PASSED
+com.demo.utilities.CommonUtilities.waitForPageLoad,Chrome 62.0.3202.75,,2017-11-08 11:14:50,2017-11-08 11:14:50,0.022s,PASSED
+waitForElementVisible,Chrome 62.0.3202.75,Wait for Facility select values to be visible in 10s,2017-11-08 11:14:50,2017-11-08 11:14:50,0.076s,PASSED
+"Statement - flag = CustomKeywords.com.demo.utilities.CommonUtilities.checkDropDownListElementExist(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CuraAppointment/select_facility), ""Hongkong CURA Healthcare Center"")",Chrome 62.0.3202.75,,2017-11-08 11:14:50,2017-11-08 11:14:50,0.181s,PASSED
+Statement - If (flag),Chrome 62.0.3202.75,,2017-11-08 11:14:50,2017-11-08 11:14:50,0.186s,PASSED
+com.demo.utilities.CommonUtilities.clickOnElement,Chrome 62.0.3202.75,Click on hospital readmission checkbox,2017-11-08 11:14:50,2017-11-08 11:14:51,0.189s,PASSED
+com.demo.utilities.CommonUtilities.clickOnElement,Chrome 62.0.3202.75,Click on hospital readmission checkbox,2017-11-08 11:14:51,2017-11-08 11:14:51,0.153s,PASSED
+com.demo.utilities.CommonUtilities.clickOnElement,Chrome 62.0.3202.75,Click on VisitDate field,2017-11-08 11:14:51,2017-11-08 11:14:51,0.192s,PASSED
+com.demo.utilities.CommonUtilities.clickOnElement,Chrome 62.0.3202.75,Select 25th Nov,2017-11-08 11:14:51,2017-11-08 11:14:51,0.208s,PASSED
+com.demo.utilities.CommonUtilities.setTextOnElement,Chrome 62.0.3202.75,,2017-11-08 11:14:51,2017-11-08 11:14:52,0.331s,PASSED
+com.demo.utilities.CommonUtilities.clickOnElement,Chrome 62.0.3202.75,,2017-11-08 11:14:52,2017-11-08 11:14:52,0.529s,PASSED
+verifyTextPresent,Chrome 62.0.3202.75,,2017-11-08 11:14:52,2017-11-08 11:14:52,0.123s,PASSED
+closeBrowser,Chrome 62.0.3202.75,,2017-11-08 11:14:52,2017-11-08 11:14:53,0.760s,PASSED

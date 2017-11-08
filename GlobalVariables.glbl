@@ -2,4 +2,19 @@
 <GlobalVariableEntities>
    <description></description>
    <tag></tag>
+   <GlobalVariableEntity>
+      <description>Global Wait Time Out</description>
+      <initValue>10</initValue>
+      <name>G_Timeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Short Time Out</description>
+      <initValue>5</initValue>
+      <name>G_ShortTimeOut</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Site URL</description>
+      <initValue>'http://demoaut.katalon.com/'</initValue>
+      <name>G_SiteURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

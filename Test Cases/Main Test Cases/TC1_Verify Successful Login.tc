@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test to verify user is able to login successfully.</description>
+   <name>TC1_Verify Successful Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>47473099-6e1a-4104-854a-a7791a57da2a</testCaseGuid>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>c0641631-2ba1-4cb8-be8b-6e07063d7494</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
+      <description></description>
+      <id>8ce3a926-e040-4ab4-b9b5-291028e18a81</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
