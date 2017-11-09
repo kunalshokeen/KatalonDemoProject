@@ -21,6 +21,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 
 WebUI.openBrowser(GlobalVariable.G_SiteURL)
 
+'Maximize current window'
+WebUI.maximizeWindow()
+
+CustomKeywords.'com.demo.utilities.CommonUtilities.waitForPageLoad'()
+
+WebUI.delay(2)
+
 WebUI.callTestCase(findTestCase('Common Test Cases/Login'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Page_CuraHomePage/div_Appointment'), GlobalVariable.G_Timeout)

@@ -19,11 +19,27 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 
-WebUI.click(findTestObject('Page_CuraHomePage/a_Make Appointment'))
+CustomKeywords.'com.demo.utilities.CommonUtilities.waitForElementVisible'(findTestObject('Page_CuraHomePage/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Page_Login/input_username'), username)
+CustomKeywords.'com.demo.utilities.CommonUtilities.clickOnElement'(findTestObject('Page_CuraHomePage/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Page_Login/input_password'), password)
+CustomKeywords.'com.demo.utilities.CommonUtilities.waitForPageLoad'()
 
-WebUI.click(findTestObject('Page_Login/button_Login'))
+WebUI.delay(GlobalVariable.G_ShortTimeOut)
+
+CustomKeywords.'com.demo.utilities.CommonUtilities.waitForElementVisible'(findTestObject('Page_Login/input_username'))
+
+CustomKeywords.'com.demo.utilities.CommonUtilities.setTextOnElement'(findTestObject('Page_Login/input_username'), username)
+
+CustomKeywords.'com.demo.utilities.CommonUtilities.waitForElementVisible'(findTestObject('Page_Login/input_password'))
+
+CustomKeywords.'com.demo.utilities.CommonUtilities.setTextOnElement'(findTestObject('Page_Login/input_password'), password)
+
+CustomKeywords.'com.demo.utilities.CommonUtilities.waitForElementVisible'(findTestObject('Page_Login/button_Login'))
+
+CustomKeywords.'com.demo.utilities.CommonUtilities.clickOnElement'(findTestObject('Page_Login/button_Login'))
+
+CustomKeywords.'com.demo.utilities.CommonUtilities.waitForPageLoad'()
+
+WebUI.delay(GlobalVariable.G_ShortTimeOut)
 

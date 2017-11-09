@@ -70,4 +70,9 @@ public class CommonUtilities {
 	void waitForPageLoad() {
 		WebUI.waitForPageLoad(GlobalVariable.G_Timeout)
 	}
+	
+	@Keyword
+	void waitForElementVisible(TestObject testObj) {
+		WebUI.waitForElementVisible(testObj,GlobalVariable.G_Timeout)
+	}
 }

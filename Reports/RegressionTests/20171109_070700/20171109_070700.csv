@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+RegressionTests,Firefox 47.0,,2017-11-09 07:07:01,2017-11-09 07:07:54,52.428s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login,Firefox 47.0,Test to verify user is able to login successfully.,2017-11-09 07:07:02,2017-11-09 07:07:24,22.392s,PASSED
+openBrowser,Firefox 47.0,,2017-11-09 07:07:02,2017-11-09 07:07:13,10.585s,PASSED
+maximizeWindow,Firefox 47.0,Maximize current window,2017-11-09 07:07:13,2017-11-09 07:07:13,0.095s,PASSED
+com.demo.utilities.CommonUtilities.waitForPageLoad,Firefox 47.0,,2017-11-09 07:07:13,2017-11-09 07:07:13,0.082s,PASSED
+delay,Firefox 47.0,,2017-11-09 07:07:13,2017-11-09 07:07:15,2.030s,PASSED
+callTestCase,Firefox 47.0,,2017-11-09 07:07:15,2017-11-09 07:07:24,8.724s,PASSED
+verifyElementPresent,Firefox 47.0,,2017-11-09 07:07:24,2017-11-09 07:07:24,0.057s,PASSED
+closeBrowser,Firefox 47.0,,2017-11-09 07:07:24,2017-11-09 07:07:24,0.312s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment,Firefox 47.0,This test case allows a user to book appointment.,2017-11-09 07:07:24,2017-11-09 07:07:54,29.627s,PASSED
+openBrowser,Firefox 47.0,,2017-11-09 07:07:24,2017-11-09 07:07:34,9.158s,PASSED
+maximizeWindow,Firefox 47.0,Maximize current window,2017-11-09 07:07:34,2017-11-09 07:07:34,0.023s,PASSED
+com.demo.utilities.CommonUtilities.waitForPageLoad,Firefox 47.0,,2017-11-09 07:07:34,2017-11-09 07:07:34,0.036s,PASSED
+delay,Firefox 47.0,,2017-11-09 07:07:34,2017-11-09 07:07:37,3.002s,PASSED
+callTestCase,Firefox 47.0,,2017-11-09 07:07:37,2017-11-09 07:07:45,8.667s,PASSED
+waitForElementVisible,Firefox 47.0,Wait for Facility select values to be visible in 10s,2017-11-09 07:07:45,2017-11-09 07:07:45,0.071s,PASSED
+"Statement - flag = CustomKeywords.com.demo.utilities.CommonUtilities.checkDropDownListElementExist(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CuraAppointment/select_facility), ""Hongkong CURA Healthcare Center"")",Firefox 47.0,,2017-11-09 07:07:45,2017-11-09 07:07:45,0.108s,PASSED
+Statement - If (flag),Firefox 47.0,,2017-11-09 07:07:45,2017-11-09 07:07:46,0.243s,PASSED
+com.demo.utilities.CommonUtilities.clickOnElement,Firefox 47.0,Click on hospital readmission checkbox,2017-11-09 07:07:46,2017-11-09 07:07:46,0.110s,PASSED
+com.demo.utilities.CommonUtilities.clickOnElement,Firefox 47.0,Click on hospital readmission checkbox,2017-11-09 07:07:46,2017-11-09 07:07:46,0.109s,PASSED
+com.demo.utilities.CommonUtilities.clickOnElement,Firefox 47.0,Click on VisitDate field,2017-11-09 07:07:46,2017-11-09 07:07:46,0.162s,PASSED
+com.demo.utilities.CommonUtilities.clickOnElement,Firefox 47.0,Select 25th Nov,2017-11-09 07:07:46,2017-11-09 07:07:46,0.302s,PASSED
+com.demo.utilities.CommonUtilities.setTextOnElement,Firefox 47.0,,2017-11-09 07:07:46,2017-11-09 07:07:47,0.305s,PASSED
+delay,Firefox 47.0,,2017-11-09 07:07:47,2017-11-09 07:07:50,3.001s,PASSED
+com.demo.utilities.CommonUtilities.clickOnElement,Firefox 47.0,,2017-11-09 07:07:50,2017-11-09 07:07:50,0.692s,PASSED
+com.demo.utilities.CommonUtilities.waitForPageLoad,Firefox 47.0,,2017-11-09 07:07:50,2017-11-09 07:07:50,0.011s,PASSED
+delay,Firefox 47.0,,2017-11-09 07:07:50,2017-11-09 07:07:53,3.002s,PASSED
+verifyTextPresent,Firefox 47.0,,2017-11-09 07:07:53,2017-11-09 07:07:54,0.271s,PASSED
+closeBrowser,Firefox 47.0,,2017-11-09 07:07:54,2017-11-09 07:07:54,0.161s,PASSED

@@ -22,25 +22,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.G_SiteURL)
 
-CustomKeywords.'com.demo.utilities.CommonUtilities.waitForPageLoad'()
-
-'Click on a_Make Appointment button'
-CustomKeywords.'com.demo.utilities.CommonUtilities.clickOnElement'(findTestObject('Page_CuraHomePage/a_Make Appointment'))
+'Maximize current window'
+WebUI.maximizeWindow()
 
 CustomKeywords.'com.demo.utilities.CommonUtilities.waitForPageLoad'()
 
-'Fill username'
-CustomKeywords.'com.demo.utilities.CommonUtilities.setTextOnElement'(findTestObject('Page_Login/input_username'), 
-    username)
+WebUI.delay(GlobalVariable.G_ShortTimeOut)
 
-'Fill password'
-CustomKeywords.'com.demo.utilities.CommonUtilities.setTextOnElement'(findTestObject('Page_Login/input_password'), 
-    password)
-
-'Click on Login button'
-CustomKeywords.'com.demo.utilities.CommonUtilities.clickOnElement'(findTestObject('Page_Login/button_Login'))
-
-CustomKeywords.'com.demo.utilities.CommonUtilities.waitForPageLoad'()
+WebUI.callTestCase(findTestCase('Common Test Cases/Login'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 
 'Wait for Facility select values to be visible in 10s'
 WebUI.waitForElementVisible(findTestObject('Page_CuraAppointment/select_facility'), 10)
@@ -68,7 +57,13 @@ CustomKeywords.'com.demo.utilities.CommonUtilities.clickOnElement'(findTestObjec
 CustomKeywords.'com.demo.utilities.CommonUtilities.setTextOnElement'(findTestObject('Page_CuraAppointment/textarea_comment'), 
     'Booking appointment')
 
+WebUI.delay(GlobalVariable.G_ShortTimeOut)
+
 CustomKeywords.'com.demo.utilities.CommonUtilities.clickOnElement'(findTestObject('Page_CuraAppointment/button_Book Appointment'))
+
+CustomKeywords.'com.demo.utilities.CommonUtilities.waitForPageLoad'()
+
+WebUI.delay(GlobalVariable.G_ShortTimeOut)
 
 WebUI.verifyTextPresent(appointmentConfirmationText, true)
 
